@@ -1,0 +1,26 @@
+stdname=(input("enter std name"))
+stdno=int(input("enter std no."))
+stdgroup=(input("enter std group"))
+a=int(input("enter datascience marks"))
+b=int(input("enter statistics marks"))
+c=int(input("enter cs marks"))
+d=int(input("enter telugu marks"))
+e=int(input("enter english marks"))
+f=int(input("enter analytical skills"))
+total=a+b+c+d+e+f
+avg=total/6
+if a<35 and b<35 and c<35 and d<35 and e<35:
+    print("fail")
+if(avg>91):
+    print("O-grade")
+elif(avg>81):
+    print("A-grade")
+elif(avg>71):
+    print("B-grade")
+elif("avg>61"):
+    print("C-grade")
+elif(avg>51):
+    print("D grade")
+else:
+    print("pass")
+         
